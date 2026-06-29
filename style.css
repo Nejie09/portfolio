@@ -11,12 +11,14 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
+
+
 }
 
 .container{
-    width:1200px;
-    height:750px;
-    background:#fff;
+    width:1400px;
+    height:850px;
+    background:lightblue;
     display:flex;
     box-shadow:0 20px 60px rgba(0,0,0,.15);
 }
@@ -56,24 +58,34 @@ body{
 
 nav ul{
     list-style:none;
+
+
+
+
 }
 
 nav li{
     margin:18px 0;
+    width: 110px;
+    text-align: center;
+
+
 }
 
 nav a{
     text-decoration:none;
     color:#666;
-    font-size:15px;
+    font-size:13px;
     transition:.3s;
     color:red;
+
 }
 
 nav a:hover,
 nav .active{
     color:#000;
     font-weight:600;
+
 }
 
 .sidebar-footer{
@@ -135,8 +147,11 @@ nav .active{
 
 .hero-image{
     width:400px;
-    height:300px;
+    height:290px;
+    margin-bottom:50%;
+    text-align: center;
 }
+
 
 .hero-image img{
     width:100%;
@@ -186,13 +201,13 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment:fixed;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
 }
 .zoro {
     display: inline-block;
-    background-color: #15376d;
-    color: #fff;
+    background-color:#15376d;
+    color:#fff;
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 4px;
@@ -206,12 +221,12 @@ body{
 }
 a {
     text-decoration: none;
-    color: #333;
+    color:#333;
     transition: color 0.3s ease;
 }
 
 a:hover {
     color: #15376d;
     text-decoration: underline;
-}
+}  
 

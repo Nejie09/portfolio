@@ -29,10 +29,12 @@ header {
     color: #ff7f32;
 }
 
+
 nav ul {
     display: flex;
     list-style: none;
     gap: 24px;
+
     
 
 }
@@ -72,6 +74,7 @@ nav ul li a:hover{
     max-width: 1200px;
     margin: auto;
     padding: 0 40px;
+
 }
 
 .hero small {
@@ -91,6 +94,12 @@ nav ul li a:hover{
     max-width: 1200px;
     margin: auto;
     padding: 60px 40px;
+    background-color:rgba(255, 255, 255, 0.5);
+
+
+
+          
+
 }
 
 .content h2 {
@@ -157,6 +166,7 @@ nav ul li a:hover{
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
+
     }
 
     .hero h1 {
@@ -184,11 +194,13 @@ body{
     text-decoration: none;
     border-radius: 4px;
     transition: all 0.3s ease;
+
 }
 
 .btn:hover {
     background-color:lightblue;
     transform: translateY(-3px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
 }
 
